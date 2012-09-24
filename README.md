@@ -5,8 +5,10 @@ Implementación en Supercollider del algoritmo de Hilario Fernández Long para g
 
 El siguiente ejemplo genera 5 palabras aleatorias utilizando la clase WordGen:
 
+<code>
 a = WordGen.new("texto.txt");
 
 5.do{
    a.next.postln;
 }
+</code>
